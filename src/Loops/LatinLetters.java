@@ -2,10 +2,11 @@ package Loops;
 
 import java.util.Scanner;
 
-public class NumbersFrom1to100 {
+public class LatinLetters {
+
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 100; i++) {
+        for (char i = 'a'; i <= 'z'; i++) {
             System.out.println(i);
         }
     }
